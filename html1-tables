@@ -1,0 +1,265 @@
+<html>
+<head>
+   <title> tables</title>
+</head>
+ 
+<body>
+   <center> <h3>tables Exercise</h3></center>
+    
+   table 1 :
+   <br>
+ 
+    <table border="1" style="width:100%; text-align:center" >
+        <tr style="background-color: rgb(168, 220, 250);">
+        <td>code</td>
+        <td>Job Title</td>
+        <td>jobs</td>
+        <td>Experiences </td>
+        <td>Time </td>
+        <td>Work Place</td>
+        </tr>
+         <tr> 
+            <td>WD-01</td>  
+            <td>FullStack PHP Developer</td>
+            <td>5</td>
+            <td>3-5</td>
+            <td>full time</td>
+            <td>online / office</td>
+        </tr>
+        <tr>
+            <td>WD-02</td>  
+            <td>UI/UX Designer</td>
+            <td>2</td>
+            <td>5-10</td>
+            <td>part time</td>
+            <td>office</td>
+        </tr>
+        <tr>
+            <td>WD-03</td>  
+            <td>NodeJs Developer</td>
+            <td>5</td>
+            <td>3-5</td>
+            <td>        </td>
+            <td>online / office</td>
+        </tr>
+        <tr>
+            <td>mD-01</td>  
+            <td>Swift iOS Mobile Apps Developer</td>
+            <td>3</td>
+            <td>         </td>
+            <td>        </td>
+            <td>online / office</td>
+        </tr>
+        <tr>
+            <td>mD-02</td>  
+            <td>Java iOS Mobile Apps Developer</td>
+            <td>3</td>
+            <td>         </td>
+            <td>        </td>
+            <td>online / office</td>
+        </tr>
+        <tr>
+            <td>mD-03</td>  
+            <td>Flutter Mobile Apps Developer</td>
+            <td>6</td>
+            <td>         </td>
+            <td>        </td>
+            <td>online / office</td>
+        </tr>
+        <tr>
+            <td>mD-04</td>  
+            <td>React Native Mobile Apps Developer</td>
+            <td>7</td>
+            <td>         </td>
+            <td>        </td>
+            <td>online / office</td>
+        </tr>
+        <tr>
+            <td>MNG-01 </td>  
+            <td>Technical Team Leader</td>
+            <td>3</td>
+            <td>         </td>
+            <td>        </td>
+            <td>office</td>
+        </tr>
+        <tr>
+            <td>MNG-02 </td>  
+            <td>Project Manager </td>
+            <td>1</td>
+            <td>         </td>
+            <td>        </td>
+            <td></td>
+        </tr>
+    </table>
+ 
+        <br>
+ 
+        table 2 :
+ 
+        <br>
+    <table border="1" style="width:100%; text-align:center">
+            <tr style="background-color: rgb(168, 220, 250);">
+                <td>code</td>
+                <td>developer</td>
+                <td colspan="3">platform</td>
+            </tr>
+            <tr style="background-color: rgb(168, 220, 250);">
+                <td></td>
+                <td></td>
+                <td>web</td>
+                <td>ios</td>
+                <td>android</td>
+            </tr>
+ 
+            <tr>
+                <td>WD-01</td>
+                <td>FullStack PHP Developer</td>
+                <td>5</td>
+                <td>3-5</td>
+                <td>full time</td>
+            </tr>
+            <tr>
+                <td>WD-02</td>
+                <td>UI/UX Designer</td>
+                <td>2</td>
+                <td>5-10</td>
+                <td>part time</td>
+            </tr>
+            <tr>
+                <td>WD-03</td>
+                <td>NodeJs Developer </td>
+                <td>5</td>
+                <td>3-5</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>MD-01 </td>
+                <td>Swift iOS Mobile Apps Developer </td>
+                <td>3</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>MD-02 </td>
+                <td>Java iOS Mobile Apps Developer </td>
+                <td>3</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>MD-03 </td>
+                <td>Flutter Mobile Apps Developer </td>
+                <td>6</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>MD-04 </td>
+                <td>React Native Mobile Apps Developer </td>
+                <td>7</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>MNG-01 </td>
+                <td>Technical Team Leader </td>
+                <td>3</td>
+                <td></td>
+                <td></td>
+            </tr>
+ 
+            <tr>
+                <td>MNG-02 </td>
+                <td>Project Manager </td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+            </tr>   
+ 
+     </table>
+ 
+     <br>
+     table 3 :
+     <br>
+     
+     <table border="1"style="width:100%; text-align:center">
+         <tr style="background-color: rgb(168, 220, 250);">
+         <td rowspan="2">code</td>
+         <td rowspan="2">developer</td>
+         <td colspan="3">platform</td>
+        </tr>
+        <tr style="background-color: rgb(168, 220, 250);">
+            <td>web</td>
+            <td>ios</td>
+            <td>android</td>
+        </tr>
+ 
+         <tr>
+             <td>WD-01</td>
+             <td>FullStack PHP Developer</td>
+             <td>5</td>
+             <td>3-5</td>
+             <td>full time</td>
+         </tr>
+         <tr>
+            <td>WD-02</td>
+            <td>UI/UX Designer </td>
+            <td>2</td>
+            <td>5-10</td>
+            <td>part time</td>
+         </tr>
+         <tr>
+            <td>WD-03</td>
+            <td>NodeJs Developer  </td>
+            <td>5</td>
+            <td>3-5</td>
+            <td></td>
+         </tr>
+         <tr>
+            <td>MD-01</td>
+            <td>Swift iOS Mobile Apps Developer  </td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td>MD-02</td>
+            <td>Java iOS Mobile Apps Developer   </td>
+            <td>3</td>
+            <td></td>
+            <td></td> 
+         </tr>
+         <tr>
+            <td>MD-03</td>
+            <td>Flutter Mobile Apps Developer    </td>
+            <td>6</td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td>MD-04</td>
+            <td>React Native Mobile Apps Developer     </td>
+            <td>7</td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td>MNG-01</td>
+            <td>Technical Team Leader    </td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td>MNG-02</td>
+            <td>Project Manager   </td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+         </tr>
+        
+     </table>
+ 
+
+</body>
+</html>
